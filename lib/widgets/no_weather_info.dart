@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+
 class NoWeatherInfo extends StatelessWidget {
-  const NoWeatherInfo({
-    super.key,
-  });
+  const NoWeatherInfo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +9,7 @@ class NoWeatherInfo extends StatelessWidget {
       child: Text(
         'There is no weather data available,\n Search for a city🔍',
         style: TextStyle(
-          fontSize: 25,
+          fontSize: 24,
           color: Colors.blue[900],
           fontWeight: FontWeight.bold,
         ),
