@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/pages/home_page.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:weather_app/cubits/get_weather_cubit/get_weather_cubit.dart';
+import 'package:weather_app/cubits/get_weather_cubit/get_weather_state.dart';
+import 'package:weather_app/pages/home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,9 +16,26 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: const  HomePage(),
+    return BlocProvider(
+      create: (context) => GetWeatherCubit(),
+      child: BlocBuilder<GetWeatherCubit, WeatherState>(
+        builder: (context, state) {
+          MaterialColor primarySwatch = Colors.blueGrey;
+
+          if (state is WeatherLoadedState) {
+            primarySwatch = state.weatherModel.getThemeColor();
+          }
+
+          return MaterialApp(
+            theme: ThemeData(
+              primarySwatch: primarySwatch,
+              appBarTheme: AppBarTheme(backgroundColor: primarySwatch),
+            ),
+            debugShowCheckedModeBanner: false,
+            home: const HomePage(),
+          );
+        },
+      ),
     );
   }
 }
