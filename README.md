@@ -12,28 +12,12 @@ A weather application that displays current weather information for different ci
 
 ## Screenshots 🖼️
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-    <div style="text-align: center; width: 18%; min-width: 150px;">
-        <img src="assets/screenshots/Screenshot_1746596950.png" alt="No internet connection screen" width="100%">
-        <p>No internet connection</p>
-    </div>
-    <div style="text-align: center; width: 18%; min-width: 150px;">
-        <img src="assets/screenshots/Screenshot_1746596962.png" alt="Search page UI" width="100%">
-        <p>Search page</p>
-    </div>
-    <div style="text-align: center; width: 18%; min-width: 150px;">
-        <img src="assets/screenshots/Screenshot_1746597094.png" alt="Weather UI with sunny condition" width="100%">
-        <p>Sunny condition</p>
-    </div>
-    <div style="text-align: center; width: 18%; min-width: 150px;">
-        <img src="assets/screenshots/Screenshot_1746818290.png" alt="Weather UI with rainy condition" width="100%">
-        <p>Rainy condition</p>
-    </div>
-    <div style="text-align: center; width: 18%; min-width: 150px;">
-        <img src="assets/screenshots/Screenshot_1746597816.png" alt="Weather UI with cloudy condition" width="100%">
-        <p>Cloudy condition</p>
-    </div>
-</div>
+## Screenshots 🖼️
+
+| ![](assets/screenshots/Screenshot_1746596950.png) <br> No internet | ![](assets/screenshots/Screenshot_1746596962.png) <br> Search page | ![](assets/screenshots/Screenshot_1746597094.png) <br> Sunny |
+|----------------------------|-----------------------------|--------------------------|
+| ![](assets/screenshots/Screenshot_1746818290.png) <br> Rainy | ![](assets/screenshots/Screenshot_1746597816.png) <br> Cloudy |
+
 
 ## Project Structure
 
