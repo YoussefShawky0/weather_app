@@ -12,8 +12,6 @@ A weather application that displays current weather information for different ci
 
 ## Screenshots 🖼️
 
-## Screenshots 🖼️
-
 | ![](assets/screenshots/Screenshot_1746596950.png) <br> No internet | ![](assets/screenshots/Screenshot_1746596962.png) <br> Search page | ![](assets/screenshots/Screenshot_1746597094.png) <br> Sunny |
 |----------------------------|-----------------------------|--------------------------|
 | ![](assets/screenshots/Screenshot_1746818290.png) <br> Rainy | ![](assets/screenshots/Screenshot_1746597816.png) <br> Cloudy |
