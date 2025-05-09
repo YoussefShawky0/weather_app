@@ -12,26 +12,26 @@ A weather application that displays current weather information for different ci
 
 ## Screenshots 🖼️
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
-    <div style="flex: 1; min-width: 150px;">
-        <p><strong>No Connection</strong></p>
-        <img src="assets/screenshots/Screenshot_1746596950.png" alt="No Connection" width="100%">
+<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+    <div style="text-align: center; width: 18%; min-width: 150px;">
+        <img src="assets/screenshots/Screenshot_1746596950.png" alt="No internet connection screen" width="100%">
+        <p>No internet connection</p>
     </div>
-    <div style="flex: 1; min-width: 150px;">
-        <p><strong>Search Page</strong></p>
-        <img src="assets/screenshots/Screenshot_1746596962.png" alt="Search Page" width="100%">
+    <div style="text-align: center; width: 18%; min-width: 150px;">
+        <img src="assets/screenshots/Screenshot_1746596962.png" alt="Search page UI" width="100%">
+        <p>Search page</p>
     </div>
-    <div style="flex: 1; min-width: 150px;">
-        <p><strong>Sunny Weather</strong></p>
-        <img src="assets/screenshots/Screenshot_1746597094.png" alt="Sunny Weather" width="100%">
+    <div style="text-align: center; width: 18%; min-width: 150px;">
+        <img src="assets/screenshots/Screenshot_1746597094.png" alt="Weather UI with sunny condition" width="100%">
+        <p>Sunny condition</p>
     </div>
-    <div style="flex: 1; min-width: 150px;">
-        <p><strong>Rainy Weather</strong></p>
-        <img src="assets/screenshots/Screenshot_1746818290.png" alt="Rainy Weather" width="100%">
+    <div style="text-align: center; width: 18%; min-width: 150px;">
+        <img src="assets/screenshots/Screenshot_1746818290.png" alt="Weather UI with rainy condition" width="100%">
+        <p>Rainy condition</p>
     </div>
-    <div style="flex: 1; min-width: 150px;">
-        <p><strong>Cloudy Weather</strong></p>
-        <img src="assets/screenshots/Screenshot_1746597816.png" alt="Cloudy Weather" width="100%">
+    <div style="text-align: center; width: 18%; min-width: 150px;">
+        <img src="assets/screenshots/Screenshot_1746597816.png" alt="Weather UI with cloudy condition" width="100%">
+        <p>Cloudy condition</p>
     </div>
 </div>
 
@@ -153,4 +153,3 @@ final apiKey = dotenv.env['API_KEY'];
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
